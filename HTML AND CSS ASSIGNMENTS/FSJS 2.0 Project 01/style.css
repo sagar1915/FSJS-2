@@ -1,0 +1,93 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    max-width: 100vw;
+    margin: 0%;
+    font-family : sans-serif;
+    max-height: 100vh;
+    margin: 10px 50px;
+
+}
+
+/* nav */
+.navbar-container{
+   display: flex;
+   flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    /* margin-bottom: 50px; */
+    
+}
+.navbar-container img{
+    height: 38px;
+}
+
+.grow-list{
+display: flex;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.list-item{
+    list-style-type: none;
+    margin: 20px;
+    color: #9e9e9e;
+}
+
+.list-item:hover{    
+    color: black;
+    }
+
+.button-group{
+    margin-left: auto;
+}
+
+/* banner  */
+.banner-container{
+    display: flex;
+}
+
+.heading-text{
+    font-size: 50px;
+    color: #3c2f60;
+    width :400px;
+}
+
+.heading-text span{
+    font-size: 45px;
+    color: #7475DA;
+}
+
+.description {
+    color: #9e9e9e;
+    width: 300px;
+}
+
+.banner-container img{
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+}
+
+/* button */
+.nav-button{
+    background-color: #5955b3;
+    border: 2px solid #5955b3;
+    border-radius: 10px;
+    color: #eaeaf6;
+    padding : 13px 30px;
+}
+
+.nav-button:hover{
+    background-color: #ffffff;
+    color: #5955b3 ;
+    border: 2px solid #5955b3;
+}
+
+.btn{
+    margin-top: 50px;
+}
